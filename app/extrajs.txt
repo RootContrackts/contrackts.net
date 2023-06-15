@@ -1,0 +1,31 @@
+<Heading mb={4} as="h2" max-width="100%" size="2xl" noOfLines={1}>
+<div style={{ textAlign: "center" }}>
+  <h1> Welcome to Contrackts </h1>
+</div>
+</Heading>
+
+<Box>
+          <Stack spacing={3}>
+            <Text fontSize="xl">
+              where blockchain technology meets traceability and transparency.
+              With our customizable ledger and smart contracts, we redesigined
+              intermediaries model, ensuring a tamper-proof environment. Gain
+              real-time supply chain visibility, verify product authenticity,
+              and combat counterfeiting. Our platform streamlines processes,
+              enhances efficiency, and potentially reduces costs. Trust in our
+              auditable trail and data integrity measures. Join us at the
+              forefront of blockchain-powered traceability and transparency,
+              where trust is certain.
+            </Text>
+          </Stack>
+          {/* Image Slider */}
+          <Box>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Image
+                src="/images/i3.png"
+                alt="i3"
+                style={{ maxWidth: "70%", maxHeight: "70%" }}
+              />
+            </div>
+          </Box>
+        </Box>
